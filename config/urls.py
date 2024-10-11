@@ -20,11 +20,11 @@ urlpatterns = [
     path("users/", include("senior_design_project_web_app.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
+    path('chat/', include('chat.urls')),
     # ...
     # Media files
     *static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT),
 ]
-
 
 if settings.DEBUG:
     # This allows the error pages to be debugged during development, just visit

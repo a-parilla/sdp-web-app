@@ -88,8 +88,10 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "senior_design_project_web_app.users",
+    "chat",  # Add the new chat app
     # Your stuff: custom apps go here
 ]
+
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
