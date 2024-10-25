@@ -274,3 +274,5 @@ dump.rdb
 senior_design_project_web_app/media/
 
 .pytest_cache/
+
+node_modules/
